@@ -24,7 +24,7 @@ export const Home = () => {
                             marginLeft: "80px",
                         }}
                     >
-                        <span className="prem">PREMIUM</span> <span style={{ color: "#445022" }}>WATCH</span>
+                        <span className="prem">PREMIUM</span> <span style={{ color: "" }}>WATCH</span>
                     </h1>
                 </Col>
                 <Col>

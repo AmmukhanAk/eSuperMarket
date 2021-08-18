@@ -44,6 +44,7 @@ export const Productlist = () => {
                     </Card.Body>
                 </Card>
             </Col>
+
         </Row>
     )
 }

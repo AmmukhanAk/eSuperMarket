@@ -28,7 +28,7 @@ export const Home = () => {
                     </h1>
                 </Col>
                 <Col>
-                    <img className="vegpic" src="./mechanism.gif" alt="" />
+                    <img className="" src="./mechanism.gif" alt="" />
                 </Col>
             </Row>
             <Productlist />

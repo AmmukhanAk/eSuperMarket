@@ -5,9 +5,9 @@ import { Cart } from "./Cart";
 export const NaviBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="Ammukhan">
                 <Container>
-                    <Navbar.Brand href="#home">TRENDY</Navbar.Brand>
+                    <Navbar.Brand href="#home">PickupBiz</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

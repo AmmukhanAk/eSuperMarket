@@ -10,6 +10,9 @@ export const Cart = () => {
             <Nav.Link>
                 Cart<ShoppingCartIcon /> <sup>{products.length}</sup> {" "}
             </Nav.Link>
+            <Nav.Link>
+                {/* Login<LoginIcon /> <sup>{product.length}</sup>{" "} */}
+            </Nav.Link>
         </div>
     );
 };

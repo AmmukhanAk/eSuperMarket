@@ -13,7 +13,7 @@ export const ProductItem = () => {
                     <Button variant="dark" onClick={() =>
                         dispatch({
                             type: "ADD_PRODUCT",
-                            data: ["Soap", "Tata Namak"],
+                            data: ["Omega", "MontBlanc"],
                         })
                     }
                     >
@@ -25,7 +25,7 @@ export const ProductItem = () => {
                     <Button variant="dark" onClick={() =>
                         dispatch({
                             type: "REMOVE_PRODUCT",
-                            data: ["Soap"],
+                            data: ["Omega"],
                         })
                     }
                     >

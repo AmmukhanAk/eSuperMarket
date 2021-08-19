@@ -1,7 +1,7 @@
 import React from "react"
 import { Nav, Navbar, Container, } from "react-bootstrap"
 import { Cart } from "./Cart";
-
+import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 export const NaviBar = () => {
     return (
         <div>
@@ -18,6 +18,9 @@ export const NaviBar = () => {
                         </Nav>
                         <Nav>
                             <Cart />
+                            <Nav.Link>
+                                Login<VerifiedUserIcon />
+                            </Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>

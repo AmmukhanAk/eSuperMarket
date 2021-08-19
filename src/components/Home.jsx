@@ -5,9 +5,22 @@ import { ProductItem } from "./ProductItem"
 import '../components/Product.css'
 import { Productlist } from "./Productlist";
 import { NaviBar } from "./NavBAr";
-import { useEffect } from 'react';
 
+// import { useEffect } from 'react';
+import { useDispatch } from "react-redux";
+import { getProducts } from "../service/products";
 export const Home = () => {
+    const dispatch = useDispatch();
+    const allProducts = async () => {
+        const products = await getProducts();
+        dispatch({
+            type: "ADD_PRODUCT",
+            data: products,
+        })
+    }
+    useEffect(() => {
+        allProducts();
+    }, [])
     return (
 
         <div>

@@ -1,7 +1,7 @@
 import React,{useEffect} from "react";
 import {Provider } from "react-redux"
 import { configStore } from "./state/store/configStore";
-import logo from './logo.svg';
+
 import './App.css';
 import {Home} from "./components/Home.jsx"
 import {getProducts}from "./service/products"

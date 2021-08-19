@@ -1,10 +1,11 @@
-import react from "react"
+import React, { useEffect } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Row, Form, Nav, Navbar, Container } from "react-bootstrap";
 import { ProductItem } from "./ProductItem"
 import '../components/Product.css'
 import { Productlist } from "./Productlist";
 import { NaviBar } from "./NavBAr";
+import { useEffect } from 'react';
 
 export const Home = () => {
     return (

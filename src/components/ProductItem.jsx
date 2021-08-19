@@ -25,7 +25,7 @@ export const ProductItem = () => {
                     <Button variant="dark" onClick={() =>
                         dispatch({
                             type: "REMOVE_PRODUCT",
-                            data: ["Omega"],
+                            data: ["Omega", "MontBlanc"],
                         })
                     }
                     >

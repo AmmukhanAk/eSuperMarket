@@ -2,12 +2,12 @@ import React from "react"
 import { Nav, Navbar, Container, } from "react-bootstrap"
 import { Cart } from "./Cart";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
-export const NaviBar = () => {
+export const NavBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="Ammukhan">
+            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" className="Ammukhan">
                 <Container>
-                    <Navbar.Brand href="#home">PickupBiz</Navbar.Brand>
+                    <Navbar.Brand href="#home">F-zone</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

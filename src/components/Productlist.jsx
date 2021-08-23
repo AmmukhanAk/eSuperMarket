@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react"
-import { useSelector } from "react-redux"
-import { Card, Col, Row } from "react-bootstrap"
-import { ProductItem } from "./ProductItem"
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import { Card, Row, Col } from "react-bootstrap";
+import { ProductItem } from "./ProductItem";
+import { useEffect } from "react";
+
 export const ProductList = () => {
+    const myProducts = useSelector((state) => state.productReducer.product);
+    const [prods, setProds] = useState([]);
 
-    const myProducts = useSelector((state) => state.productReducer.product)
-    const [prod, setProd] = useState([])
     useEffect(() => {
-        console.log("===data==>", myProducts)
-        setProd([...myProducts])
-    }, [myProducts])
+        setProds([...myProducts]);
+    }, [myProducts]);
     return (
-        <React.Fragment>{prod.length > 1 &&
+        <Card className="productlist">
             <Row>
-                {console.log("prod====>", prod)}
-                {prod.map(item => {
-
-                    <ProductItem item={item} />
-
-                })}
-            </Row >}
-        </React.Fragment>
-    )
-}
+                {prods.map((item) => (
+                    <Col md={3}>
+                        <ProductItem item={item} />
+                    </Col>
+                ))}
+            </Row>
+        </Card>
+    );
+};

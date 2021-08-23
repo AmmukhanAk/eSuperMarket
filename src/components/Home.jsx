@@ -21,9 +21,9 @@ export const Home = () => {
     }, []);
     return (
         <div>
-            <NavBar />
+            <NavBar setSearchText={setSearchText} />
             <MiddlePart />
-            <ProductList />
+            <ProductList searchText={searchText} />
         </div>
     );
 };

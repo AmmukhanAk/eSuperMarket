@@ -1,4 +1,4 @@
-export const productReducer = (state = { product: ["Nike Shoes"] }, action) => {
+export const productReducer = (state = { product: [] }, action) => {
     if (action.type === "ADD_PRODUCT") {
       return {
         ...state,

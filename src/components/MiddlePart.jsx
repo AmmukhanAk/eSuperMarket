@@ -14,11 +14,19 @@ export const MiddlePart = () => {
           />
           <Button variant="outline-success">Search</Button>
         </Form> */}
+
+
+
+
             </Row>
             <br />
             <Row>
                 <Col>
-                    <h5 style={{ marginLeft: "100px", marginTop: "100px" }}>
+                    <h4>multibrands</h4>
+                    <h1>F-ZONE</h1><br /><h2>Collection</h2>
+
+
+                    {/* <h5 style={{ marginLeft: "100px", marginTop: "100px" }}>
                         Mutibrands
                     </h5>
                     <h1
@@ -28,17 +36,17 @@ export const MiddlePart = () => {
                             marginLeft: "100px",
                         }}
                     >
-                        <span style={{ color: "#082032" }}>F-Zone</span>
-                        <br />
+                        {/* <span style={{ color: "" }}>F-Zone</span> */}
+                    {/* <br />
 
-                        <span style={{ color: "#FF4C29" }}>Collection</span>
-                    </h1>
+                    <span style={{ color: "" }}>Collection</span>
+                    </h1> */}
                 </Col>
                 <Col>
-                    <img className="vegpic" src="./veg.png" alt="" />
+                    <img className="F" src="./diamond.gif" alt="" />
                 </Col>
             </Row>
-        </div>
+        </div >
     );
 };
 

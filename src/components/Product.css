@@ -1,6 +1,6 @@
-
+*{background-color: black;}
 .productitem{
-    background-color: white !important;
+    background-color: darkgray !important;
     margin: 5px;
     padding: 5px;
     text-align: center;
@@ -10,3 +10,32 @@
     margin: 10px;
     padding: 10px;
 }
+
+h4{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+h1 {
+    
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 200px;
+    font-family: fantasy;
+
+  }
+
+  h2 {
+    background: -webkit-linear-gradient(#eee, #333 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 500px;
+    font-family: fantasy;
+
+  }

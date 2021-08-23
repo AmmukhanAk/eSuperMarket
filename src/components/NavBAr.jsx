@@ -2,7 +2,7 @@ import React from "react"
 import { Nav, Navbar, Container, Form, FormControl, } from "react-bootstrap"
 import { Cart } from "./Cart";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
-export const NavBar = () => {
+export const NavBar = ({ setSearchText }) => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" className="Ammukhan">

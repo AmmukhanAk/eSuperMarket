@@ -14,10 +14,12 @@ export const NavBar = () => {
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#/">exclusive</Nav.Link>
                             <Nav.Link href="#/">Product</Nav.Link>
-                            <FormControl
-                                type="Search"
-                                onChange={(e) => setSearchText(e.target.value)}
-                            />
+                            <Form classNAme="d-flex">
+                                <FormControl
+                                    type="Search"
+                                    onChange={(e) => setSearchText(e.target.value)}
+                                />
+                            </Form>
                         </Nav>
                         <Nav>
                             <Cart />

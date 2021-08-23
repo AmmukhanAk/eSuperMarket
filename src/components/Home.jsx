@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { ProductList } from "./ProductList";
 import { getProducts } from "../service/products";
@@ -15,7 +15,7 @@ export const Home = () => {
             data: products,
         });
     };
-
+    const [searchText, setSearchText] = useState(" ")
     useEffect(() => {
         allProducts();
     }, []);

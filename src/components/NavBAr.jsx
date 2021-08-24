@@ -13,7 +13,7 @@ export const NavBar = ({ setSearchText }) => {
                         <Nav className="me-auto">
                             <Nav.Link href="/">Basics</Nav.Link>
                             <Nav.Link href="#/">Casuals</Nav.Link>
-                            <Nav.Link href="#/">Cultural</Nav.Link>
+                            {/* <Nav.Link href="#/">Cultural</Nav.Link> */}
                             <Form classNAme="d-flex">
                                 <FormControl
                                     type="Search"

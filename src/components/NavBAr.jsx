@@ -11,9 +11,9 @@ export const NavBar = ({ setSearchText }) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="#/">exclusive</Nav.Link>
-                            <Nav.Link href="#/">Product</Nav.Link>
+                            <Nav.Link href="/">Basics</Nav.Link>
+                            <Nav.Link href="#/">Casuals</Nav.Link>
+                            <Nav.Link href="#/">Cultural</Nav.Link>
                             <Form classNAme="d-flex">
                                 <FormControl
                                     type="Search"

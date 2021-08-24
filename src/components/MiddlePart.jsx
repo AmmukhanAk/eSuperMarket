@@ -40,8 +40,8 @@ export const MiddlePart = () => {
                     {/* <br />
 
                     <span style={{ color: "" }}>Collection</span>
-                    </h1> */}
-                </Col>
+                    </h1>
+                </Col> */}
                 <Col>
                     <img className="F" src="./diamond.gif" alt="" />
                 </Col>

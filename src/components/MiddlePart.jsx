@@ -24,9 +24,31 @@ export const MiddlePart = () => {
                 <Col>
                     <h4>multibrands</h4>
                     <h1>F-ZONE</h1><br /><h2>Collection</h2>
+                </Col>
+
+                <Col>
+                    <img className="F" src="./diamond.gif" alt="" />
+                </Col>
+
+            </Row>
+        </div >
+    );
+};
+
+export default MiddlePart;
 
 
-                    {/* <h5 style={{ marginLeft: "100px", marginTop: "100px" }}>
+
+
+
+
+
+
+
+
+
+
+{/* <h5 style={{ marginLeft: "100px", marginTop: "100px" }}>
                         Mutibrands
                     </h5>
                     <h1
@@ -37,17 +59,8 @@ export const MiddlePart = () => {
                         }}
                     >
                         {/* <span style={{ color: "" }}>F-Zone</span> */}
-                    {/* <br />
+{/* <br />
 
                     <span style={{ color: "" }}>Collection</span>
                     </h1>
                 </Col> */}
-                <Col>
-                    <img className="F" src="./diamond.gif" alt="" />
-                </Col>
-            </Row>
-        </div >
-    );
-};
-
-export default MiddlePart;

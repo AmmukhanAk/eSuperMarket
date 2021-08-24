@@ -5,7 +5,11 @@ import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 export const NavBar = ({ setSearchText }) => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" className="Ammukhan">
+            <Navbar collapseOnSelect expand="lg"
+                bg="black"
+                variant="dark"
+                className="Ammukhan"
+            >
                 <Container>
                     <Navbar.Brand href="#home">F-zone</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

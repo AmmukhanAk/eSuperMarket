@@ -5,6 +5,8 @@ import { getProducts } from "../service/products";
 import { NavBar } from "./NavBAr"
 import MiddlePart from "./MiddlePart"
 import "./Product.css";
+import { NoteTwoTone } from "@material-ui/icons";
+import { Nav } from "react-bootstrap";
 
 export const Home = () => {
     const dispatch = useDispatch();
@@ -24,6 +26,7 @@ export const Home = () => {
             <NavBar setSearchText={setSearchText} />
             <MiddlePart />
             <ProductList searchText={searchText} />
+
         </div>
     );
 };

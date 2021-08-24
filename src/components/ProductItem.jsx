@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { Row, Col, Card, Button, Form, Image } from "react-bootstrap";
-
+import { Row, Col, Card, Button, Form, Image, Nav } from "react-bootstrap";
+import { ProductDetails } from "./Productdetails";
 export const ProductItem = ({ item }) => {
     const dispatch = useDispatch();
     console.log("Item====>", item);
@@ -29,6 +29,10 @@ export const ProductItem = ({ item }) => {
                         -
                     </Button>
                 </Col>
+
+
+
+                <Col> <Button variant="dark"><Nav.Link href="/ProductDetails">Details</Nav.Link></Button> </Col>
                 <Col>
                     <Button variant="dark"
                         onClick={() =>

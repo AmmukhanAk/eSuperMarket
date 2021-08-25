@@ -1,8 +1,6 @@
 import React from "react";
 import { NavBars } from "../NavBAr";
-import { Home } from "../Home";
-import { ProductList } from "../ProductList";
-import { Middlepart } from "../MiddlePart";
+import { ProductDetails } from "../Productdetails"
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,12 +14,9 @@ export const Routers = ({ setstext, stext }) => {
       <Router>
         <NavBars setstext={setstext} />
         <Switch>
-          <div>
-
-            <Route path="/ProductDetails">
-              <ProductDetails />
-            </Route>
-          </div>
+          <Route path="/ProductDetails">
+            <ProductDetails />
+          </Route>
         </Switch>
       </Router>
     </div>

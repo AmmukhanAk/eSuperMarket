@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { Row, Col, Card, Button, Form, Image, Nav } from "react-bootstrap";
 import { ProductDetails } from "./Productdetails";
+import { Link } from 'react-router-dom'
 export const ProductItem = ({ item }) => {
     const dispatch = useDispatch();
     console.log("Item====>", item);
@@ -32,7 +33,7 @@ export const ProductItem = ({ item }) => {
 
 
 
-                <Col> <Button variant="dark"><Nav.Link href="/ProductDetails">Details</Nav.Link></Button> </Col>
+                {/* <Col> <Button variant="dark" ><Nav.Link href="/ProductDetails">Details</Nav.Link></Button> </Col> */}
                 <Col>
                     <Button variant="dark"
                         onClick={() =>
@@ -44,8 +45,18 @@ export const ProductItem = ({ item }) => {
                     >
                         +
                     </Button>
+
                 </Col>
             </Row>
+            <Link to="/productdetails">
+                <Button variant="dark" onClick={() =>
+                    dispatch({
+                        type: "SELECTED_PROD_ID",
+                        data: item.id,
+                    })}> details</Button>
+
+
+            </Link>
         </Card>
     );
 };

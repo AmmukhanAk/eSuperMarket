@@ -9,7 +9,7 @@ import { NoteTwoTone } from "@material-ui/icons";
 import { Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ProductDetails } from "./Productdetails";
-import { FooterMain } from "./Footer";
+
 import { Footer } from "./footer/FooterSamples";
 export const Home = () => {
     const dispatch = useDispatch();

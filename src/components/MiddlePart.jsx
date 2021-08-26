@@ -21,15 +21,13 @@ export const MiddlePart = () => {
             </Row>
             <br />
             <Row>
-                <Col md={4}>
-                    <img className="F" src="./diamond.gif" alt="" />
-                </Col>
-                <Col md={4} textalign="center">
+
+                <Col textalign="center">
                     <h4>multibrands</h4>
                     <h1>#F-ZONE</h1><h2>Collection</h2><h2>Accessories</h2>
                 </Col>
 
-                <Col md={4}>
+                <Col>
                     <img className="F" src="./diamond.gif" alt="" />
                 </Col>
 

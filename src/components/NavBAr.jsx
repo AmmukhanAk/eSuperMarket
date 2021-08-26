@@ -2,6 +2,7 @@ import React from "react"
 import { Nav, Navbar, Container, Form, FormControl, } from "react-bootstrap"
 import { Cart } from "./Cart";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 export const NavBar = ({ setSearchText }) => {
     return (
         <div>
@@ -18,14 +19,16 @@ export const NavBar = ({ setSearchText }) => {
                             <Nav.Link href="/">Basics</Nav.Link>
                             <Nav.Link href="#/">Casuals</Nav.Link>
                             {/* <Nav.Link href="#/">Cultural</Nav.Link> */}
-                            <Form classNAme="d-flex">
+
+                        </Nav>
+                        <Nav>
+                            <Form >
                                 <FormControl
                                     type="Search"
                                     onChange={(e) => setSearchText(e.target.value)}
                                 />
                             </Form>
-                        </Nav>
-                        <Nav>
+                            <Nav.Link><FavoriteBorderIcon /></Nav.Link>
                             <Cart />
                             <Nav.Link>
                                 Login<VerifiedUserIcon />

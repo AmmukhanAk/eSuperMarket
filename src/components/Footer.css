@@ -1,0 +1,121 @@
+* {
+    text-transform: capitalize;
+    /* border: 1px solid brown; */
+    margin: 0;
+}
+
+.footerRow {
+    background-color: white;
+    box-shadow: 0 0 15px black;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.footerCol {
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    height: 350px;
+}
+
+.SectionStyle {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color:black;
+    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0 0;
+    background-size: 30px;
+}
+
+.social a {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.about a {
+    color:silver;
+}
+
+.policy a {
+    color:silver;
+}
+
+.fundraising a {
+    color:silver;
+}
+
+.footer2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.footer a:hover {
+    color: silver;
+}
+
+.about a:hover {
+    color: silver;
+}
+
+.fundraising a:hover {
+    color: silver;
+}
+
+.policy a:hover {
+    color: silver;
+}
+
+.copy a {
+    text-decoration: none;
+    color: white;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+@media screen and (max-width: 800px) {
+    /* .footer {
+        display: block;
+    }
+    .card {
+        width: 500px;
+        height: 25rem;
+        text-align: center;
+        font-size: x-large !important;
+        margin-top: 25px !important;
+    }
+    .row {
+        --bs-gutter-x: 0rem;
+        width: 100%;
+        text-align: center !important;
+    } */
+}
+
+
+.fa-instagram:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.fa-facebook-square:hover {
+    color:white;
+    transform: scale(1.4);
+}
+
+.fa-twitter-square:hover {
+    color:white;
+    transform: scale(1.4);
+}
+
+.fa-linkedin-in:hover {
+    color:white;
+    transform: scale(1.4);
+}
+
+.fa-youtube:hover {
+    color:silver;
+    transform: scale(1.4);
+}

@@ -16,7 +16,7 @@ export const ProductDetails = () => {
             <Card>
                 <Row>
                     <Col>
-                        <p>Ammukhan</p>
+                        <p>WAPAS JAO KUCH NAHI HAI ABHI YAHA </p>
                     </Col>
                 </Row>
             </Card>

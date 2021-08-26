@@ -10,6 +10,7 @@ import { Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ProductDetails } from "./Productdetails";
 import { FooterMain } from "./Footer";
+import { Footer } from "./footer/FooterSamples";
 export const Home = () => {
     const dispatch = useDispatch();
     const allProducts = async () => {
@@ -37,10 +38,11 @@ export const Home = () => {
                         <Route path="/productdetails">
                             <ProductDetails />
                         </Route>
+
                     </div>
                 </Switch>
             </Router>
-            <FooterMain />
+            <Footer />
         </div>
     );
 };

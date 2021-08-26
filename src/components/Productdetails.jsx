@@ -19,6 +19,8 @@ export const ProductDetails = () => {
                         <p>WAPAS JAO KUCH NAHI HAI ABHI YAHA </p>
                     </Col>
                 </Row>
+                <Row> <Col> <Button variant="dark">
+                    Back</Button></Col></Row>
             </Card>
         </div>
     )

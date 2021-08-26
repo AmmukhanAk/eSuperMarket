@@ -5,6 +5,8 @@ import { configStore } from "./state/store/configStore";
 import './App.css';
 import {Home} from "./components/Home.jsx"
 import {getProducts}from "./service/products"
+import { Footer } from "./components/footer/FooterSamples";
+
 
 function App() {
   const LocalStore = configStore()
